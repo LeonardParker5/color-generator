@@ -11,3 +11,13 @@ for i in range(0, 6):
 
 print("\nColor generation complete...")
 print("\nHex generated : #" + random_string)
+
+red_hex = random_string[0:2]
+print("Red Hex Value: " + red_hex)
+green_hex = random_string[2:4]
+print("Green Hex Value: " + green_hex)
+blue_hex = random_string[4:6]
+print("Blue Hex Value: " + blue_hex)
+
+#def hex_to_rgb(hex_digits):
+#    print()
