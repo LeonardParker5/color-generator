@@ -1,4 +1,4 @@
-import random, numpy
+import random, numpy, hextorgb
 
 color_values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
 
@@ -19,5 +19,6 @@ print("Green Hex Value: " + green_hex)
 blue_hex = random_string[4:6]
 print("Blue Hex Value: " + blue_hex)
 
-#def hex_to_rgb(hex_digits):
-#    print()
+print("\nRed Hex Value converted to RGB value is: " , hextorgb.hex_to_rgb(red_hex))
+print("\nGreen Hex Value converted to RGB value is: " , hextorgb.hex_to_rgb(green_hex))
+print("\nBlue Hex Value converted to RGB value is: " , hextorgb.hex_to_rgb(blue_hex))
