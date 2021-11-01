@@ -1,4 +1,5 @@
-import random, numpy, hextorgb
+import random, hextorgb
+from PIL import Image
 
 color_values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
 
@@ -22,3 +23,6 @@ print("Blue Hex Value: " + blue_hex)
 print("\nRed Hex Value converted to RGB value is: " , hextorgb.hex_to_rgb(red_hex))
 print("\nGreen Hex Value converted to RGB value is: " , hextorgb.hex_to_rgb(green_hex))
 print("\nBlue Hex Value converted to RGB value is: " , hextorgb.hex_to_rgb(blue_hex))
+
+im = Image.new("RGB", (500, 500), "#" + random_string)
+im.show()
