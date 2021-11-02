@@ -27,4 +27,4 @@ print("\nBlue Hex Value converted to RGB value is: " , hextorgb.hex_to_rgb(blue_
 im = Image.new("RGB", (500, 500), "#" + random_string)
 im.show()
 
-colorparser.parse_color()
+colorlist = colorparser.parse_color()
