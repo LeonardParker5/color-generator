@@ -25,7 +25,7 @@ def parse_color():
 
         final_rgbstring = str(hextorgb.hex_to_rgb(red_hex)) + ", " + str(hextorgb.hex_to_rgb(green_hex)) + ", " + str(hextorgb.hex_to_rgb(blue_hex))
 
-        newcolor = Colors(final_colorname, final_rgbstring)
+        newcolor = Colors(final_colorname, final_rgbstring, str(red_hex + green_hex + blue_hex))
         color_list.append(newcolor)
         
     return color_list
