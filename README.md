@@ -1,2 +1,2 @@
 # color-generator
-Python application capable of generating and displaying random colors using 6-digit hex values
+Python application that uses euclidian comparisons of hex values to find approximate color names via color dictionary 
